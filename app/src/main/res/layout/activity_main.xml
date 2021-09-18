@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<dora.widget.DoraRadioGroup
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:id="@+id/radioGroup">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/rb_default_checked"
+            style="@style/DoraRadioGroupStyle"
+            android:text="6元（首充翻倍）" />
+        <RadioButton
+            style="@style/DoraRadioGroupStyle"
+            android:text="12元" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton
+            style="@style/DoraRadioGroupStyle"
+            android:text="68元" />
+        <RadioButton
+            style="@style/DoraRadioGroupStyle"
+            android:text="98元" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton
+            style="@style/DoraRadioGroupStyle"
+            android:text="128元" />
+        <RadioButton
+            style="@style/DoraRadioGroupStyle"
+            android:text="328元" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton
+            style="@style/DoraRadioGroupStyle"
+            android:text="648元" />
+        <RadioButton
+            style="@style/DoraRadioGroupStyle"
+            android:text="占位"
+            android:visibility="invisible"
+            tools:visibility="visible"/>
+    </LinearLayout>
+</dora.widget.DoraRadioGroup>
