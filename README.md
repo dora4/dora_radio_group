@@ -4,9 +4,9 @@
 
 复杂度：★★☆☆☆
 
-分组：【Dora大控件组】
+分组：【系统控件优化】
 
-关系：暂无
+关系：DoraButton
 
 技术要点：ViewGroup添加View过程、LayoutParams解析过程
 
